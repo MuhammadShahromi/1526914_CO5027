@@ -1,11 +1,13 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="_1526914_CO5027_ASG.Admin._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-
+     
     <link href="../CSS/styles.css" rel="stylesheet" />
-    <script src="../Scripts/jquery.js"></script>   
+    <script src="../Scripts/jquery.js"></script>
+       
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="heading1">
+
+<div class="heading1">
 <h1>HOME</h1>
 </div>
 	
