@@ -1,0 +1,63 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_1526914_CO5027_ASG.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <meta charset="utf-8"/>
+    <link href="CSS/styles.css" rel="stylesheet" />
+    <script src="Scripts/jquery.js"></script>
+    <title></title>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div/>
+
+<div class="outer">
+<div class="wrapper">
+<div class="logo"></div>
+
+    <img src="images/banner.png" alt="Banner" width="850" height="150" runat="server"/>
+	
+<div class="navigationbutton">
+		<ul>
+	
+            <li><a href="~/Admin/default.aspx" runat="server">HOME</a></li>
+			<li><a href="Product.aspx" runat="server">PRODUCT</a></li>
+			<li><a href="About.aspx" runat="server">ABOUT</a></li>
+            <li><a href="Contact.aspx" runat="server">CONTACT</a></li>
+            <li><a href="login.aspx" runat="server">LOGIN</a></li>
+           
+       	</ul>
+</div>
+
+         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    <div class="footer"></div>
+<div class="icon">
+
+<!-- Facebook icon image is retrieved from http://lurgikd4.blogspot.com/2012/01/facebook-login-icon.html -->
+<img src="images/facebook.jpg" width="30" height="30" alt="facebook icon" runat="server"/></a>
+
+<!-- Twitter icon image is retrieved from http://www.iconarchive.com/show/flat-gradient-social-icons-by-limav/Twitter-icon.html -->
+<img src="images/twitter.jpg" width="30" height="30" alt="twitter icon" runat="server"/></a>
+
+<!-- Instagram icon image is retrieved from http://www.freeiconspng.com/icons/instagram-icon -->
+<img src="images/instagram.jpg" width="30" height="30" alt="instagram icon" runat="server"/></a>
+</div>
+
+<div class="footertext">
+<p>Copyright @ Updated March 2017</p>
+</div>
+
+<div class="footer"></div>
+
+    </div>
+    </div>
+    </form>
+</body>
+</html>
