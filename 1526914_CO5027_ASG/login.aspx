@@ -20,5 +20,12 @@
     <asp:Button ID="Button1" runat="server" style="margin-left: 180px; margin-top: 27px" Text="Login" />
     <br />
    
+<div class="paragraph">
+<p>Not registered yet? Click the link Below</p>
+</div>
+
+<div class="registration">
+<p><a href="Register.html">REGISTER NOW!</a></p>
+</div>
 
 </asp:Content>
