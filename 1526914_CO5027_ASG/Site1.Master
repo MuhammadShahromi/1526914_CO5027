@@ -25,11 +25,11 @@
 <div class="navigationbutton">
 		<ul>
 	
-            <li><a href="~/Admin/default.aspx" runat="server">HOME</a></li>
-			<li><a href="Product.aspx" runat="server">PRODUCT</a></li>
-			<li><a href="About.aspx" runat="server">ABOUT</a></li>
-            <li><a href="Contact.aspx" runat="server">CONTACT</a></li>
-            <li><a href="login.aspx" runat="server">LOGIN</a></li>
+            <li><a href="~/default.aspx" runat="server">HOME</a></li>
+			<li><a href="~/Product.aspx" runat="server">PRODUCT</a></li>
+			<li><a href="~/About.aspx" runat="server">ABOUT</a></li>
+            <li><a href="~/Contact.aspx" runat="server">CONTACT</a></li>
+            <li><a href="~/login.aspx" runat="server">LOGIN</a></li>
            
        	</ul>
 </div>
