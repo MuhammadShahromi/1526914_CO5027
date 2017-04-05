@@ -10,6 +10,7 @@
 <h1>ABOUT</h1>
 </div>
 
+<!-- Image below is retrieved from https://clipartfest.com/categories/view/f8b7f893c2d5d3675674e96267ce559d242f8b7d/bicycle-logo-clipart.html -->
 <a href="images/about01.jpg" title="about01."><img src="images/about01.jpg" width="700" height="350" alt="about01"/></a>
 
 <div class="heading2">
@@ -22,7 +23,7 @@
 <p>We are selling different kind of bike such as mountain bike, road bike and etc with the affordable price.</p>
 <p>We also sell the spare parts and its accessories such as bike chain, gear, paddle, tyre, water bottle and etc.</p>
 
-
+<!-- Image below is retrieved from http://tour.taitung.gov.tw/en-us/Tourist/Experience/Bicycle -->
 <a href="images/about02.jpg" title="about02."><img src="images/about02.jpg" width="700" height="350" alt="about02"/></a>
 
 <div class="heading2">

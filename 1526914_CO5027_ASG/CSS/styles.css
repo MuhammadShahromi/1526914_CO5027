@@ -148,6 +148,7 @@ h1, h2, p
 	border:2px solid #000;
 }
 
+/* This code below is based on the example from the Ninja Slider v2016.12.29 Copyright www.menucool.com for the slideshow */
 #sliderimage .slideshow 
 {
     max-width:600px;
@@ -281,6 +282,7 @@ h1, h2, p
     background-color:#ccc\9;   
     opacity:0.3;
 }
+/* End of code */
 
 .footer
 {
