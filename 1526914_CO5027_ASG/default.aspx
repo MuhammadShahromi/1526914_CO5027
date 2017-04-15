@@ -46,7 +46,7 @@
     </div>
 	
 <div class="registration">
-<p><a href="Register.html">REGISTER NOW!</a></p>
+<p><a href="Register.aspx">REGISTER NOW!</a></p>
 </div>
 
 </asp:Content>

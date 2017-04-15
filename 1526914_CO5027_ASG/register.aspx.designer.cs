@@ -10,69 +10,69 @@
 namespace _1526914_CO5027_ASG {
     
     
-    public partial class contact {
+    public partial class register {
         
         /// <summary>
-        /// UserFirstName control.
+        /// RegisterUsername control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserFirstName;
+        protected global::System.Web.UI.WebControls.TextBox RegisterUsername;
         
         /// <summary>
-        /// UserLastName control.
+        /// RegisterEmailAddress control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserLastName;
+        protected global::System.Web.UI.WebControls.TextBox RegisterEmailAddress;
         
         /// <summary>
-        /// UserEmailAddress control.
+        /// RegisterPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserEmailAddress;
+        protected global::System.Web.UI.WebControls.TextBox RegisterPassword;
         
         /// <summary>
-        /// UserContactNumber control.
+        /// RegisterConfirmPassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserContactNumber;
+        protected global::System.Web.UI.WebControls.TextBox RegisterConfirmPassword;
         
         /// <summary>
-        /// UserAddress control.
+        /// RegisterContactNumber control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserAddress;
+        protected global::System.Web.UI.WebControls.TextBox RegisterContactNumber;
         
         /// <summary>
-        /// UserTextMessage control.
+        /// BtnRegister control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserTextMessage;
+        protected global::System.Web.UI.WebControls.Button BtnRegister;
         
         /// <summary>
-        /// Button1 control.
+        /// LiteralErrorProblem control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.Literal LiteralErrorProblem;
     }
 }
