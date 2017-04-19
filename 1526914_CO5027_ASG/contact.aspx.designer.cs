@@ -13,22 +13,22 @@ namespace _1526914_CO5027_ASG {
     public partial class contact {
         
         /// <summary>
-        /// UserFirstName control.
+        /// Username control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserFirstName;
+        protected global::System.Web.UI.WebControls.TextBox Username;
         
         /// <summary>
-        /// UserLastName control.
+        /// UsernameValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserLastName;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator UsernameValidator;
         
         /// <summary>
         /// UserEmailAddress control.
@@ -40,22 +40,13 @@ namespace _1526914_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox UserEmailAddress;
         
         /// <summary>
-        /// UserContactNumber control.
+        /// EmailValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserContactNumber;
-        
-        /// <summary>
-        /// UserAddress control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox UserAddress;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator EmailValidator;
         
         /// <summary>
         /// UserTextMessage control.
@@ -67,12 +58,39 @@ namespace _1526914_CO5027_ASG {
         protected global::System.Web.UI.WebControls.TextBox UserTextMessage;
         
         /// <summary>
-        /// Button1 control.
+        /// MessageValidator control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator MessageValidator;
+        
+        /// <summary>
+        /// btncReset control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btncReset;
+        
+        /// <summary>
+        /// BtnSend control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnSend;
+        
+        /// <summary>
+        /// LiteralOutput control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Literal LiteralOutput;
     }
 }

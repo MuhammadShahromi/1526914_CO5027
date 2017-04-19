@@ -1,4 +1,4 @@
-﻿<%@ Page Title="HOME" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="_1526914_CO5027_ASG.Admin._default" %>
+﻿<%@ Page Title="Cycling Arena | HOME" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="_1526914_CO5027_ASG.Admin._default" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="CSS/styles.css" rel="stylesheet" />
     <script src="Scripts/jquery.js"></script>

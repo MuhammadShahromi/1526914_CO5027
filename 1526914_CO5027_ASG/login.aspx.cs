@@ -25,7 +25,8 @@ namespace _1526914_CO5027_ASG
             var user = userManager.Find(LoginEmailAddress.Text, LoginPassword.Text);
             if (user != null)
             {
-                //todo: log user in / instruct user to log in
+                LogUserIn(userManager, user);
+                Server.Transfer("Privatepage.aspx", true);
             }
             else
             {

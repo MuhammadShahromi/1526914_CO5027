@@ -1,4 +1,4 @@
-﻿<%@ Page Title="ABOUT" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="_1526914_CO5027_ASG.about" %>
+﻿<%@ Page Title="Cycling Arena | ABOUT" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="about.aspx.cs" Inherits="_1526914_CO5027_ASG.about" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
   
 <link href="CSS/styles.css" rel="stylesheet" />
